@@ -14,12 +14,51 @@
   top:5px;
 
 }
+#stihl-model
+{
+  color:rgb(40, 44, 52);
+  font-style: oblique;
+  font-family: fantasy;
+  font-size:18px;
+}
 #stihl-h2
 {
   color: rgb(243, 122, 31);
   font-style: oblique;
   font-family: fantasy;
   font-size: 32px;
+}
+.pspecs
+{
+  color:black;
+  font-style: oblique;
+  font-family: fantasy;
+  font-size:18px;
+}
+.stihl-model
+{
+  font-size:24px;
+}
+#stihl-h4
+{
+  color: rgb(243, 122, 31);
+  font-style: oblique;
+  font-family: fantasy;
+  font-size: 24px;
+}
+.sawname
+{
+  color: rgb(243, 122, 31);
+  font-style: oblique;
+  font-family: fantasy;
+  font-size: 4em;
+}
+.sawname-black
+{
+  color: black;
+  font-style: oblique;
+  font-family: fantasy;
+  font-size: 4em;
 }
 #stihl-h6
 {
@@ -35,50 +74,66 @@
   background-size: cover;
   background-blend-mode: hard-light;
 }
+.row-specs
+{
+  border-bottom:1px solid orange;
+}
+.col-specs
+{
+  border-right: 1px solid orange;
+}
 div.col
 {
 
   height:100%;
   bottom:0px;
 }
+.img1
+{
+
+}
 .img1, .img2, .img3
 {
   opacity:0.4;
   transition: opacity 0.5s;
 }
+.img3
+{
+  position: relative;
+  right:1%;
+}
 .img1:hover, .img2:hover, .img3:hover
 {
+  cursor:url("resources/ca2.png"), auto;
   opacity:1;
 }
 nav
 {
   border-bottom:5px solid gray;
 }
-div.col:hover
-{
-  cursor:url("resources/ca2.png"), auto;
-}
+
 #announce-1
 {
   background-color: rgb(245, 245, 245);
 
 }
-#tree1-div
+.r1
 {
-
-
+  height: 90vh;
 }
-#tree2-div
+.r2
 {
-
+  height:100vh;
 }
-#tree3-div
+.part2
 {
-
+  background-image:url("resources/woodbck1.jpg");
+  background-size: cover;
 }
-
 #btninfo
 {
+  position:relative;
+  top:3px;
   background-color: orange;
   color:black;
   font-style:oblique;
@@ -115,6 +170,7 @@ div.col:hover
     height:50%;
     width:120%;
   }
+
   .img2, .img3
   {
     height:55%;
@@ -123,6 +179,10 @@ div.col:hover
 }
 @media  (max-width: 400px) and (min-width: 300px)
 {
+  .sawname
+  {
+    font-size:2em;
+  }
   .ppromo
   {
     font-size:12px;
@@ -131,6 +191,10 @@ div.col:hover
   {
     height:70%;
     width:105%;
+  }
+  .img2
+  {
+    right:1px;
   }
   .img2, .img3
   {
