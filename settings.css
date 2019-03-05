@@ -1,6 +1,18 @@
-p
+#Timg
 {
- color:white;
+  -ms-transform: rotate(3deg); /* IE 9 */
+  -webkit-transform: rotate(3deg); /* Safari */
+  transform: rotate(3deg);
+}
+.ppromo
+{
+  font-size:32px;
+  color: rgb(33, 37, 43);
+  font-style: italic;
+  font-family: verdana;
+  position:relative;
+  top:5px;
+
 }
 #stihl-h2
 {
@@ -8,4 +20,121 @@ p
   font-style: oblique;
   font-family: fantasy;
   font-size: 32px;
+}
+#stihl-h6
+{
+  display: inline;
+  color: rgb(243, 122, 31);
+  font-style: oblique;
+  font-family: fantasy;
+  font-size: 12px;
+}
+#start-div
+{
+  background-image: url("resources/startBckTrees.jpg");
+  background-size: cover;
+  background-blend-mode: hard-light;
+}
+div.col
+{
+
+  height:100%;
+  bottom:0px;
+}
+.img1, .img2, .img3
+{
+  opacity:0.4;
+  transition: opacity 0.5s;
+}
+.img1:hover, .img2:hover, .img3:hover
+{
+  opacity:1;
+}
+nav
+{
+  border-bottom:5px solid gray;
+}
+div.col:hover
+{
+  cursor:url("resources/ca2.png"), auto;
+}
+#announce-1
+{
+  background-color: rgb(245, 245, 245);
+
+}
+#tree1-div
+{
+
+
+}
+#tree2-div
+{
+
+}
+#tree3-div
+{
+
+}
+
+#btninfo
+{
+  background-color: orange;
+  color:black;
+  font-style:oblique;
+  font-family: fantasy;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+#btninfo:hover
+{
+  color:white;
+}
+.img1
+{
+  position:absolute;
+  width:160%;
+  height:100%;
+  bottom:0%;
+}
+.img2, .img3
+{
+  position:absolute;
+  height:100%;
+  width:120%;
+  bottom:0%;
+}
+@media  (max-width: 700px) and (min-width: 400px)
+{
+  .ppromo
+  {
+    font-size:16px;
+  }
+  .img1
+  {
+    height:50%;
+    width:120%;
+  }
+  .img2, .img3
+  {
+    height:55%;
+    width:110%;
+  }
+}
+@media  (max-width: 400px) and (min-width: 300px)
+{
+  .ppromo
+  {
+    font-size:12px;
+  }
+  .img1
+  {
+    height:70%;
+    width:105%;
+  }
+  .img2, .img3
+  {
+    height:65%;
+    width:140%;
+    bottom:0px;
 }

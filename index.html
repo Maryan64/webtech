@@ -9,51 +9,77 @@
     <style media="screen">
       .container-fluid
       {
-        background-color:blue;
+        top:150px;
+        height: 90vh;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-      <a class="navbar-brand" href="#">
-          <h1 id="stihl-h2">STIHL</h1>
-      </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-atomic="false" aria-busy="false"data-target="#navbarSupportedContent">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
-            </li>
-          </ul>
+
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="#">
+            <h1 id="stihl-h2">STIHL</h1>
+        </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" aria-atomic="false" aria-busy="false"data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Active</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+
+
+  <div class="col">
+    <div class="dd">
+
+    </div>
+    <div class="row" id="announce-1">
+     <div class="col">
+       <p class="ppromo">1. choose a <img id="Timg" src="resources/Tsymb.png" height="30" width="30">ree</p>
+     </div>
+     <div class="col text-right" style="text-align:right">
+       <a class="btn btn-primary" id="btninfo" style="position:relative; top:3px;right:0px;" top="10px" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+         Why?
+       </a>
+     </div>
+     <div class="collapse" id="collapseExample">
+ <div class="card card-body">
+   <p style="display:inline">It is very important to know how would you use chainsaw.
+   Too thin trees mean you don't need to feel exhausted carrying heavy chainsaw and spend a lot of fuel.</p>
+ </div>
+</div>
+    </div>
+    <div class="row">
+      <div class="container-fluid" id="start-div">
+        <div class="h-100 row align-items-end">
+         <div class="col" id="tree1-div">
+             <img class="img1" src="resources/tree1.png" alt="Невеликі дерева">
+         </div>
+         <div class="col" id="tree2-div">
+             <img class="img2" src="resources/tree2.png" alt="Середні дерева" style="right:5%; vertical-align:middle; text-align:center">
+         </div>
+         <div class="col" id="tree3-div">
+           <img class="img3" src="resources/tree3.png" alt="Великі дерева" style="right:7%;vertical-align:middle; text-align:center">
+         </div>
         </div>
-</nav>
-  <div class="container-fluid">
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <p>hello, world</p>
+      </div>
+    </div>
   </div>
-  <div class="container-fluid" style="background-color:green;">
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <p>hello, world</p>
-  </div>
+
+
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
