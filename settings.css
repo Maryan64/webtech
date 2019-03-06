@@ -33,9 +33,18 @@
   color:black;
   font-style: oblique;
   font-family: fantasy;
-  font-size:18px;
-  -webkit-text-stroke: 1px orange;
+  font-size:24px;
+  -webkit-text-stroke: 0.7px yellow;
 }
+.pspecs2
+{
+  -webkit-text-stroke: 0.7px orange;
+}
+.pspecs3
+{
+  -webkit-text-stroke: 0.7px red;
+}
+
 .stihl-model
 {
   font-size:24px;
@@ -54,10 +63,6 @@
   font-family: fantasy;
   font-size: 3em;
   -webkit-text-stroke: 2px black;
-}
-.b
-{
-  border: 2px solid black;
 }
 .sawname-black
 {
@@ -108,6 +113,14 @@ div.col
   position: relative;
   right:1%;
 }
+.r2, .r3, .r4
+{
+
+}
+.saw1img:hover
+{
+  cursor:url("resources/gascan.png"), auto;
+}
 .img1:hover, .img2:hover, .img3:hover
 {
   cursor:url("resources/ca2.png"), auto;
@@ -127,18 +140,67 @@ nav
 {
   height: 90vh;
 }
-.r2
+
+#myBtn
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  opacity:0.5;
+  -webkit-transition: width 2s, height 2s, border-radius 0.5s, background-color 0.75s;
+  transition: width 2s, height 2s, border-radius 0.5s, background-color 0.75s;
+}
+
+#myBtn:hover
+{
+  background-color:orange;
+  border-radius: 32px;
+  opacity: 1.0;
+}
+.container-fluid{
+   padding: 0;
+}
+.r2, .r3, .r4, .r5
 {
   height:100vh;
 }
-.r3
+.w
 {
-  height:100vh;
+background-color: white;
 }
 .part2
 {
   background-image:url("resources/woodbck1.jpg");
   background-size: cover;
+}
+.part3
+{
+  background-image:url("resources/woodbck2.jpg");
+  background-size: cover;
+}
+.part4
+{
+  background-image:url("resources/woodbck3.jpg");
+  background-size: cover;
+}
+.bck5r
+{
+    background-color: rgb(238, 192, 131);
+}
+#form5
+{
+  width:100%;
+  padding:15px;
 }
 #btninfo
 {
@@ -172,26 +234,17 @@ nav
 .saw1img
 {
 max-width:100%;
-max-height: 70%;
+max-height: 60%;
 }
 @media  (max-width: 700px) and (min-width: 400px)
 {
-  .pscpecs
-  {
-    font-size:550px;
-  }
-  .saw1img
-  {
-    max-width:140%;
-    max-height:100%;
-  }
   .ppromo
   {
     font-size:16px;
   }
   .pscpecs, .mb-0
   {
-    font-size:16px;
+    font-size:17px;
   }
   .img1
   {
@@ -206,9 +259,23 @@ max-height: 70%;
   }
 
 }
+@media  (max-width: 400px) and (min-width: 0px)
+{
+  .sawname
+  {
+    font-size: 1em;
+  }
+}
 @media  (max-width: 400px) and (min-width: 300px)
 {
-
+  .sawname
+  {
+    font-size: 1em;
+  }
+  .pscpecs, .mb-0
+  {
+    font-size:16px;
+  }
   .saw1img
   {
     .saw1img
@@ -240,6 +307,7 @@ max-height: 70%;
     width:140%;
     bottom:0px;
   }
+
 }
 @media  (max-width: 250px) and (min-width: 0px)
 {

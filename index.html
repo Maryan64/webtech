@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="utf-8">
     <title></title>
+    <style media="screen">
+
+    </style>
   </head>
   <body>
-<div class="container-fluid">
-
-</div>
-      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
+      <nav class="navbar navbar-expand-sm bg-light navbar-light" id="navi">
         <a class="navbar-brand" href="#">
             <h1 id="stihl-h2">STIHL</h1>
         </a>
@@ -19,18 +20,15 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="ulu">
               <li class="nav-item">
-                <a class="nav-link" href="#">Which work?</a>
+                <a class="nav-link" href="#announce-1">Which work?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#ms180">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Disabled</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -55,60 +53,182 @@
      </div>
     </div>
     <div class="row r1">
-      <div class="container-fluid" id="start-div">
-        <div class="h-100 row align-items-end">
-         <div class="col" id="tree1-div">
-             <img class="img1" src="resources/tree1.png" alt="Невеликі дерева">
-         </div>
-         <div class="col" id="tree2-div">
-             <img class="img2" src="resources/tree2.png" alt="Середні дерева">
-         </div>
-         <div class="col" id="tree3-div">
-           <img class="img3" src="resources/tree3.png" alt="Великі дерева">
-         </div>
+        <div class="col" id="start-div">
+          <div class="h-100 row align-items-end">
+           <div class="col" id="tree1-div">
+             <a href="#ms180">
+               <img class="img1" src="resources/tree1.png" alt="Невеликі дерева">
+             </a>
+           </div>
+           <div class="col" id="tree2-div">
+             <a href="#ms230">
+               <img class="img2" src="resources/tree2.png" alt="Середні дерева">
+             </a>
+           </div>
+           <div class="col" id="tree3-div">
+             <a href="#ms550i">
+               <img class="img3" src="resources/tree3.png" alt="Великі дерева">
+             </a>
+           </div>
+          </div>
+        </div>
+    </div>
+    <div class="row r2" id="ms180">
+      <div class="col-12 part2">
+        <div class="h-25 row">
+          <div class="col text-center">
+            <p class="sawname">STIHL MS 180</p>
+          </div>
+        </div>
+        <div class="h-50 row">
+          <div class="col text-center">
+            <a href="#contact">
+              <img class=" saw1img img-fluid" src="resources/ms180.png" alt"">
+            </a>
+          </div>
+        </div>
+        <div class="h-25 row">
+          <div class="col">
+            <p class="pspecs mb-0">Perfect choise for your garden. Light and not such a noisy chainsaw.
+             Has 2kW power and 35cm cutting headset. Suiteable for small and medium trees from 0 to 30cm diameter.</p>
+          </div>
         </div>
       </div>
     </div>
-      <div class="row r2">
-        <div class="container-fluid part2">
-          <div class="h-25 row">
-            <div class="col-12 text-center">
-             <p class="sawname"> STIHL MS-230</p>
-            </div>
+    <div class="row r3" id="ms230">
+      <div class="col-12 part3">
+        <div class="h-25 row">
+          <div class="col text-center">
+            <p class="sawname">STIHL MS 230</p>
           </div>
-          <div class="h-50 row justify-content-center">
-            <div class="col-6">
-              <img class="img-responsive mx-auto my-auto saw1img" src="resources/ms180.png" alt"">
-            </div>
+        </div>
+        <div class="h-50 row">
+          <div class="col text-center">
+            <a href="#contact">
+              <img class=" saw1img img-fluid" src="resources/ms180.png" alt"">
+            </a>
           </div>
-          <div class="h-25 row">
-            <p class="pspecs mb-0">Perfect choise for your garden. Light and not such a noisy chainsaw.
-            Has 2kW power and 35cm cutting headset. Suiteable for small and medium trees from 0 to 30cm diameter.</p>
+        </div>
+        <div class="h-25 row">
+          <div class="col">
+            <p class="pspecs pspecs2 mb-0">Professional gardener? Forest worker? Need some insane powerful able to be handle even by a child?
+            4.8kg STIHL-230 with 2.4kW is a semi-professional chainsaw with 40cm cutting headset.</p>
           </div>
         </div>
       </div>
-      <div class="row r3">
-        <div class="container-fluid part3">
-          <div class="h-25 row">
-            <div class="col-12 text-center">
-             <p class="sawname"> STIHL MS-180</p>
-            </div>
+    </div>
+    <div class="row r4" id="ms550i">
+      <div class="col-12 part4">
+        <div class="h-25 row">
+          <div class="col text-center">
+            <p class="sawname">STIHL MS 550i</p>
           </div>
-          <div class="h-50 row justify-content-center">
-            <div class="col-6">
-              <img class="mx-auto my-auto saw1img" src="resources/ms180.png" alt"">
-            </div>
+        </div>
+        <div class="h-50 row">
+          <div class="col text-center">
+            <a href="#contact">
+              <img class=" saw1img img-fluid" src="resources/ms550i.png" alt"">
+            </a>
           </div>
-          <div class="h-25 row">
-            <p class="pspecs mb-0">Perfect choise for your garden. Light and not such a noisy chainsaw.
-            Has 2kW power and 35cm cutting headset. Suiteable for small and medium trees from 0 to 30cm diameter.</p>
+        </div>
+        <div class="h-25 row">
+          <div class="col">
+            <p class="pspecs pspecs3 mb-0">Professional chainsaw. No gain, no relax. Your wood will regret that he is on your way.
+            Insane 8kW and smart electric injector. Feel yourself a buldozer with 6kg-chainsaw up to cut everytime and everywhere.</p>
           </div>
         </div>
       </div>
+    </div>
+    <div class="row r5 bck5r align-items-right justify-content-around" id="contact">
+      <div class="col-12 part5">
+        <div class="card">
+          <div class="card-body">
+           <blockquote class="blockquote mb-0">
+            <p>Запитання?</p>
+            <p>Один дурень може задати стільки запитань, на скільки не відповість сто мудреців.</p>
+             <footer class="blockquote-footer">Конфуцій. <cite title="Source Title">683р. до н.е.</cite></footer>
+           </blockquote>
+          </div>
+        </div>
+      </div>
+      <form class="bck5r" id="form5">
+  <div class="form-group row align-items-right justify-content-right">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Пошта</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="abc@gmail.com">
+    </div>
   </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Яка модель вас цікавить?</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPassword3" placeholder="MS180">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Тип</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Взнати ціну
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Детальніше про модель
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+          <label class="form-check-label" for="gridRadios3">
+            Детальніше про купівлю
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row align-items-right justify-content-right">
+    <div class="col-sm-2">Нам цікаво</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Ще не маєте STIHL?
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Відправити</button>
+    </div>
+  </div>
+</form>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
 
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+  }
 
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
   </body>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
