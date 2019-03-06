@@ -4,6 +4,10 @@
   -webkit-transform: rotate(3deg); /* Safari */
   transform: rotate(3deg);
 }
+html
+{
+  scroll-behavior: smooth;
+}
 .ppromo
 {
   font-size:32px;
