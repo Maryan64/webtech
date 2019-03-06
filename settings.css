@@ -158,7 +158,7 @@ nav
   border-radius: 4px;
   opacity:0.5;
   -webkit-transition: width 2s, height 2s, border-radius 0.5s, background-color 0.75s;
-  transition: width 2s, height 2s, border-radius 0.5s, background-color 0.75s;
+  transition: width 2s, height 2s, border-radius 0.5s, background-color 0.75s, transform 1s;
 }
 
 #myBtn:hover
@@ -166,6 +166,7 @@ nav
   background-color:orange;
   border-radius: 32px;
   opacity: 1.0;
+  transform: rotateY(360deg);
 }
 .container-fluid{
    padding: 0;
